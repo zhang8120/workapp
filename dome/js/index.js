@@ -1,4 +1,4 @@
-angular.module("myapp",["ngRoute","ctr","ngAnimate"]).config(function($routeProvider){
+angular.module("myapp",["ngRoute","ctr","ngAnimate","sevices"]).config(function($routeProvider){
     $routeProvider.when("/",{
         templateUrl:"index.html",
         controller:"index"
